@@ -1,0 +1,10 @@
+{
+  "title": "Örnek Veri",
+  "description": "Bu bir test verisidir",
+  "data": {
+    "id": 1,
+    "name": "Darknes Lord",
+    "created": "2026-06-19"
+  },
+  "tags": ["ornek", "test", "json"]
+}
