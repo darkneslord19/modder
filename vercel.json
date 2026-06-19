@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "functions": {
+    "api/code.js": {
+      "runtime": "nodejs18.x",
+      "maxDuration": 10
+    }
+  },
+  "routes": [
+    {
+      "src": "/api/code",
+      "dest": "/api/code.js"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/api/code.js"
+    }
+  ]
+}
